@@ -1,0 +1,50 @@
+:root {
+    --clr-purp: #b8a0b8;
+    --clr-wht: #ffffff;
+    --clr-light: #ede7ee;
+
+}
+
+
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+body,
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+
+
+h1,
+h2,
+h3 {
+    line-height: 1;
+}
+
+
+.bg-light {
+    background-color: var(--clr-light);
+}
+
+.bg-purp {
+    background-color: var(--clr-purp);
+}
+
+.bg-wht {
+    background-color: var(--clr-light);
+}
