@@ -22,21 +22,6 @@ p {
     margin: 0;
 }
 
-body {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    font-size: 1.3rem;
-    line-height: 1.5;
-}
-
-
-h1,
-h2,
-h3 {
-    line-height: 1;
-}
-
-
 .bg-light {
     background-color: var(--clr-light);
 }
@@ -47,4 +32,124 @@ h3 {
 
 .bg-wht {
     background-color: var(--clr-light);
+}
+
+nav {
+    display: flex;
+    height: 30px;
+    justify-content: flex-end;
+    justify-items: flex-start;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  
+  nav a {
+    color: #000000;
+    font-weight: 500;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  nav ul {
+    list-style-type: none;
+  }
+
+  nav li {
+    border-bottom: #b8a0b8 solid 2px;
+    display: inline-block;
+    margin: 0px 20px;
+    padding: 0px 7px;
+    text-transform: uppercase;
+  }
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1.3rem;
+    line-height: 1.4;
+}
+
+#about-me {
+    margin: 20px 10px;
+}
+
+h1,
+h2,
+h3 {
+    line-height: 1.2;
+}
+
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+img:hover {
+    background-color: purple;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.split {
+    display: flex;
+    flex-direction: column;
+    border-top: #ffffff dotted 3px;
+}
+
+
+header,
+section {
+    padding: 3px 0 25px 0;
+}
+
+.container {
+    margin: 0 auto;
+    width: min(90%, 1200px);
+}
+
+footer {
+    height: 60px;
+    justify-content: space-around;
+    justify-items: flex-end;
+    
+  }
+  
+  footer a {
+    color: #b8a0b8;
+    font-weight: 700;
+    margin: 10px;
+    padding: 0px;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  footer ul {
+    list-style-type: none;
+  }
+  
+  footer li {
+    border-bottom: #b8a0b8 solid 2px;
+    display: inline-block;
+    justify-content: space-around;
+    margin: 5px 20px;
+    padding: 3px 7px;
+    text-transform: uppercase;
+  }
+
+
+/* MEDIA QUERIES */
+
+@media (min-width: 700px) {
+    .split {   
+      flex-direction: row;
+    }
+
+    .split > * {
+        flex-basis: 100%;
+    }
 }
