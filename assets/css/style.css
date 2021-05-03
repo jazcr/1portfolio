@@ -4,9 +4,6 @@
     --clr-light: #ede7ee;
 
 }
-
-
-
 *,
 *::before,
 *::after {
@@ -70,6 +67,10 @@ body {
     font-size: 1.3rem;
     line-height: 1.4;
 }
+
+body {
+  overflow-x:hidden;
+} 
 
 #about-me {
     margin: 20px 10px;
