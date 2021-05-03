@@ -2,6 +2,8 @@
 
 https://github.com/jazcr/1portfolio/
 
+https://jazcr.github.io/1portfolio/
+
 
 ## Description
 
