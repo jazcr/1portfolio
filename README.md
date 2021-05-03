@@ -12,3 +12,6 @@ This is a very early-stage of my portfolio. On this page, there are a few small 
 
 I was able to make the page responsive by adding some Media Queries to the end of my CSS. I was also able to make the images change colors when hovered over.
 
+
+
+![Deployed](assets/img/deploy.JPG "Screenshot")
